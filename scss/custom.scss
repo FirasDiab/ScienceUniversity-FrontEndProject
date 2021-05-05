@@ -1,9 +1,5 @@
-// @import "node_modules/bootstrap";
 @import "variables";
 @import "fonts";
-// @import "../Fonts/trajan-pro/Trajan Pro";
-// @import "../Fonts/trajan-pro/TrajanPro-Regular";
-// @import "../Fonts/trajan-pro/TrajanPro-Bold";
 
 * {
     margin: 0;
@@ -22,8 +18,6 @@ body {
                 padding: 0;
                 .logo {
                     width: 139px;
-                    // height: 48px;
-                    // margin: 13px 62.9167% 13px 151px;
                     margin: 13px 0;
                 }
             }
@@ -74,7 +68,6 @@ body {
             background-color: $primary-color
         }
         .navbar-container {
-            // max-width: 100%;
             background-color: $primary-color;
             .row {
                 .navbar-grid {
@@ -88,14 +81,11 @@ body {
                             ul {
                                 width: 91.6129%; /* 59.1667 equal 852px */ 
                                 margin: 0 4.1935% 0 4.1935%; /* 20.4167 equal 294px */
-                                /* padding: 0 4.1935%; */
                                 li {
                                     a {
                                         height: 19px;
-                                        // font-family: 'Open Sans', sans-serif;
                                         font-family: $main-font-SBold;
                                         font-size: 14px;
-                                        // font-weight: 600;
                                         font-weight: $font-Sbold;
                                         font-stretch: normal;
                                         font-style: normal;
@@ -106,7 +96,6 @@ body {
                                         padding: 0;
                                     }
                                     a:hover {
-                                        // background-color: $third-color;
                                         color: $third-color;
                                         text-decoration: none;
                                         opacity: 0.9;
@@ -114,32 +103,26 @@ body {
                                     }
                                 }
                                 .About {
-                                    // width: 6.1033% /* 6.1033 equal 52px */;
                                     width: 52px;
                                     margin: 0 73.5px 0 0;
                                 }
                                 .Academics {
-                                    // width: 10.2113% /* 10.2113 equal 87px */;
                                     width: 87px;
                                     margin: 0 72px 0 0;
                                 }
                                 .Admissions {
-                                    // width: 11.1502% /* 11.1502 equal 95px */;
                                     width: 95px;
                                     margin: 0 65px 0 0;
                                 }
                                 .International {
-                                    // width: 14.2018% /* 14.2018 equal 121px */;
                                     width: 121px;
                                     margin: 0 66.5px 0 0;
                                 }
                                 .Events {
-                                    // width: 6.5727% /* 6.5727 equal 56px */;
                                     width: 56px;
                                     margin: 0 70px 0 0;
                                 }
                                 .Contact-us {
-                                    // width: 11.0328% /* 11.0328 equal 94px */;
                                     width: 94px;
                                     margin: 0 0 0 0;
                                 }
@@ -168,34 +151,18 @@ body {
                         max-width: 490px;
                         max-height: 360px;
                         background-color: rgb(2, 26, 78 , 0.8);
-                        /* opacity: 0.5; */
                         position: absolute;
                         right: 12.5694%; /* 12.5694 equal 181px */
                         top: 21.5929%; /* 21.5929 equal 122px */
-                        // padding: 64px 48px 63px 47px;
                         padding: 4.4444% 3.3333%;
-                        /* padding: 19.9% 9.8% 19.8% 9.8%; */
                         object-fit: contain;
                         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-                        // overflow: hidden;
-                        // display: -webkit-box;
-                        // -webkit-line-clamp: 4;
-                        // -webkit-box-orient: vertical;
-                        // width: 200ch;
-                        // overflow-x: hidden;
-                        // overflow-y: auto;
-                        // text-align:justify;
                         p {
                             position: relative;
-                            // width: 396px;
-                            // height: 195px;
                             width: 100%;
                             height: 100%;
-                            // font-family: 'TrajanPro';
                             font-family: $hero-font;
-                            // font-size: 40px;
                             font-size: 2.5em;
-                            // font-weight: bold $font-bold2;
                             font-stretch: normal;
                             font-style: normal;
                             line-height: 1.63;
@@ -205,14 +172,8 @@ body {
                             color: $secondary-color;
                             opacity: 1;
                             margin: 0;
-                            // overflow: hidden;
-                            // display: -webkit-box;
-                            // -webkit-line-clamp: 3;
-                            // -webkit-box-orient: vertical;
-                            // max-width: 100ch;
                             overflow-x: hidden;
                             overflow-y: auto;
-                            // text-align:justify;
                             text-align: center;
                         }
                     }
@@ -248,7 +209,6 @@ body {
                    }
                    div {
                        .title-and-img {
-                        //  position: relative;
                          div {
                            position: relative;
                            width: 254.5px;
@@ -259,12 +219,6 @@ body {
                            width: 254.5px;
                            height: 263px;
                          }
-                         // .first-row-img{
-                         //   margin-bottom: 15px;
-                         //   }
-                         // .second-row-img {
-                         //   margin-top: 15px;
-                         //   }
                          .title-for-img {
                            position: absolute;
                            width: 100%;
@@ -292,13 +246,9 @@ body {
                           padding: 20px 20px;
                           .news-word {
                               width: 19.4594%;
-                            //   height: 7.2271%;
-                              // padding: 20px 0 0 0;
                               margin-bottom: 30px;
-                              // font-family: 'OpenSans';
                               font-family: $main-font-Bold;
                               font-size: 36px;               
-                              // font-weight: bold;
                               font-weight: $font-bold;
                               font-stretch: normal;
                               font-style: normal;
@@ -312,12 +262,10 @@ body {
                               color: $third-color;
                           }
                           .date {
-                              // width: 109px;
                               height: 23px;
                               color: $news-color;
                               font-family: $main-font-normal;
                               font-size: 14px;                         
-                              // font-weight: normal; 
                               font-weight: $font-normal;                     
                               font-stretch: normal;                    
                               font-style: normal;                  
@@ -326,11 +274,8 @@ body {
                               margin-bottom: 10px;
                           }
                           .news-title {
-                              // width: 318px;
-                              // height: 22px;
                               font-family: $main-font-SBold;
                               font-size: 16px;
-                              // font-weight: 600;
                               font-weight: $font-Sbold;
                               font-stretch: normal;
                               font-style: normal;
@@ -343,13 +288,11 @@ body {
                               color: $third-color;
                           }
                           .paragraph {
-                            //   width: 515px;
                             width: 100%;    
                             height: 52px;
                             margin: 0 2px 15px 4px;
                             font-family: $main-font-normal;
                             font-size: 16px;
-                            // font-weight: normal;
                             font-weight: $font-normal;
                             font-stretch: normal;
                             font-style: normal;
@@ -364,13 +307,9 @@ body {
                             height: 19px;
                             button {
                               text-transform: uppercase;
-                              //   width: 86px;
                               height: 19px;
-                             //   margin: 0 0 0 410px;
-                              // margin: 0 0 0 78.6948%;
                               font-family: $main-font-Bold;
                               font-size: 14px; 
-                              // font-weight: bold;
                               font-weight: $font-bold;
                               font-stretch: normal;
                               font-style: normal;
@@ -396,10 +335,7 @@ body {
             }
         }
         .records {
-        //   width: 100%;
           background-color: $primary-color;
-        //   padding: 80px 210px;
-        //   padding: 80px 14.5833%;
           margin-bottom: 80px;
           .cont-records {
               padding: 80px 0;
@@ -407,11 +343,9 @@ body {
           .row {
               div {
                 .number-records {
-                  // height: 90px;
                   height: 29.37%;
                   font-family: $main-font-Bold;
                   font-size: 66px; 
-                  // font-size: 4.125em;
                   font-weight: $font-bold;            
                   font-stretch: normal;
                   font-style: normal;

@@ -19,8 +19,6 @@ body {
             padding: 0;
             .logo {
                 width: 139px;
-                // height: 48px;
-                // margin: 13px 62.9167% 13px 151px;
                 margin: 13px 0;
             }
         }
@@ -40,7 +38,6 @@ body {
             .icons {
                 width: 15.2778%; /* equal 220px */
                 height: 25px;
-                // margin: 25px 13.5% 25px 68.1667%; /* 11.25 equal 162px */
                 margin: 25px 0 25px 68.1667%; /* 11.25 equal 162px */
                 padding: 0;
                 font-size: 0;
@@ -73,7 +70,6 @@ body {
         background-color: $primary-color
     }
     .navbar-container {
-        // max-width: 100%;
         background-color: $primary-color;
         .row {
             .navbar-grid {
@@ -87,14 +83,11 @@ body {
                         ul {
                             width: 91.6129%; /* 59.1667 equal 852px */ 
                             margin: 0 4.1935% 0 4.1935%; /* 20.4167 equal 294px */
-                            /* padding: 0 4.1935%; */
                             li {
                                 a {
                                     height: 19px;
-                                    // font-family: 'Open Sans', sans-serif;
                                     font-family: $main-font-SBold;
                                     font-size: 14px;
-                                    // font-weight: 600;
                                     font-weight: $font-Sbold;
                                     font-stretch: normal;
                                     font-style: normal;
@@ -106,7 +99,6 @@ body {
                                     text-transform: uppercase;
                                 }
                                 a:hover {
-                                    // background-color: $third-color;
                                     color: $third-color;
                                     text-decoration: none;
                                     opacity: 0.9;
@@ -114,33 +106,21 @@ body {
                                 }
                             }
                             .About {
-                                // width: 6.1033% /* 6.1033 equal 52px */;
-                                // width: 52px;
                                 margin: 0 73.5px 0 0;
                             }
                             .Academics {
-                                // width: 10.2113% /* 10.2113 equal 87px */;
-                                // width: 87px;
                                 margin: 0 72px 0 0;
                             }
                             .Admissions {
-                                // width: 11.1502% /* 11.1502 equal 95px */;
-                                // width: 95px;
                                 margin: 0 65px 0 0;
                             }
                             .International {
-                                // width: 14.2018% /* 14.2018 equal 121px */;
-                                // width: 121px;
                                 margin: 0 66.5px 0 0;
                             }
                             .Events {
-                                // width: 6.5727% /* 6.5727 equal 56px */;
-                                // width: 56px;
                                 margin: 0 70px 0 0;
                             }
                             .Contact-us {
-                                // width: 11.0328% /* 11.0328 equal 94px */;
-                                // width: 94px;
                                 margin: 0 0 0 0;
                             }
                         }
@@ -185,7 +165,6 @@ html {
               .logo {
                 width: 139px;
                 height: 48px;
-                /* margin-left: 110.5px; */
                 margin-left: 20px;
               }
             }
@@ -211,13 +190,8 @@ html {
               .logo {
                   width: 139px;
                   height: 48px;
-                  /* margin-left: 110.5px; */
-                  // margin: 5px 20px;
                   margin: 5px 0;
               }
-              // .navbar-toggler {
-              //     padding: 0;
-              // }
           }
           button {
             padding: 0;
@@ -225,9 +199,6 @@ html {
               font-size: 35px;
               color: $secondary-color;
             }
-              // span {
-              //     background-color: $secondary-color;
-              // }
           }
           .navbar-section1 {
               ul {
